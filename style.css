@@ -58,4 +58,13 @@ img{
     color: var(--flo-primary);
     padding-top: 0.3rem;
 }
+footer{
+    width: 40%;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    color: var(--flo-primary);
+    border: 1px solid black;
+    margin: 3rem auto;
+    border-radius: 2rem;
+}
 
