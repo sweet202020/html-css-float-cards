@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+:root{
+    --flo-darker: #0F0E17;
+    --flo-primary: #1465C0;
+    --flo-title: #E53170;
+}
+
+h1{
+    text-align: center;
+    padding: 3rem;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 800;
+    color: var(--flo-title);
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
